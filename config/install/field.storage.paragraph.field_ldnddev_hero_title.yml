@@ -1,0 +1,23 @@
+uuid: 023157f1-8aec-430e-88ee-65eb0a2c3a61
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: lHAqPaB_SLfwfaFqVdtnkx0la8Hlv5XKjCkR46FQLYk
+id: paragraph.field_ldnddev_hero_title
+field_name: field_ldnddev_hero_title
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

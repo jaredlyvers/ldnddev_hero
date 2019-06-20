@@ -1,0 +1,63 @@
+uuid: c6976cd0-f39e-4823-8742-da7ec4fe0ac0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ldnddev_hero.field_ldnddev_hero_css
+    - field.field.paragraph.ldnddev_hero.field_ldnddev_hero_edge_to_edge
+    - field.field.paragraph.ldnddev_hero.field_ldnddev_hero_item
+    - field.field.paragraph.ldnddev_hero.field_ldnddev_hero_overlay
+    - field.field.paragraph.ldnddev_hero.field_ldnddev_hero_parallax
+    - paragraphs.paragraphs_type.ldnddev_hero
+  module:
+    - entity_reference_revisions
+    - options
+_core:
+  default_config_hash: arEFTm5D7QzjWCBXnM5D6Z485NOfH7J4UPQapJwt9vw
+id: paragraph.ldnddev_hero.default
+targetEntityType: paragraph
+bundle: ldnddev_hero
+mode: default
+content:
+  field_ldnddev_hero_css:
+    weight: 5
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_ldnddev_hero_edge_to_edge:
+    weight: 6
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_ldnddev_hero_item:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_ldnddev_hero_overlay:
+    weight: 4
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+    region: content
+  field_ldnddev_hero_parallax:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+    region: content
+hidden: {  }

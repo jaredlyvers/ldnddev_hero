@@ -1,0 +1,69 @@
+uuid: 7a8a396c-53e3-4a56-b875-3c48bdcdf123
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ldnddev_hero.field_ldnddev_hero_css
+    - field.field.paragraph.ldnddev_hero.field_ldnddev_hero_edge_to_edge
+    - field.field.paragraph.ldnddev_hero.field_ldnddev_hero_item
+    - field.field.paragraph.ldnddev_hero.field_ldnddev_hero_overlay
+    - field.field.paragraph.ldnddev_hero.field_ldnddev_hero_parallax
+    - paragraphs.paragraphs_type.ldnddev_hero
+  module:
+    - paragraphs
+_core:
+  default_config_hash: zABvGIKyXJrC08Zzs7TXuLKcwxZiE0y9GmW8TBNTXSA
+id: paragraph.ldnddev_hero.default
+targetEntityType: paragraph
+bundle: ldnddev_hero
+mode: default
+content:
+  field_ldnddev_hero_css:
+    weight: 6
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_ldnddev_hero_edge_to_edge:
+    weight: 8
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_ldnddev_hero_item:
+    type: paragraphs
+    weight: 0
+    settings:
+      title: Hero
+      title_plural: Heros
+      edit_mode: closed
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: button
+      form_display_mode: default
+      default_paragraph_type: _none
+      features:
+        duplicate: duplicate
+        collapse_edit_all: collapse_edit_all
+        add_above: '0'
+    third_party_settings: {  }
+    region: content
+  field_ldnddev_hero_overlay:
+    weight: 7
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_ldnddev_hero_parallax:
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+hidden:
+  created: true
+  status: true

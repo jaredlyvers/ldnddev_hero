@@ -1,0 +1,21 @@
+uuid: ac9ada64-ecaa-4d63-b0ca-faafce17a4c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ldnddev_hero_overlay
+    - paragraphs.paragraphs_type.ldnddev_hero
+  module:
+    - options
+id: paragraph.ldnddev_hero.field_ldnddev_hero_overlay
+field_name: field_ldnddev_hero_overlay
+entity_type: paragraph
+bundle: ldnddev_hero
+label: 'ldnddev Hero Overlay'
+description: 'Use this option to select an overlay and it''s shade.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

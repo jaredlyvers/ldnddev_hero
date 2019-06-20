@@ -1,0 +1,67 @@
+uuid: c9bf0bf5-fa27-45f3-957b-825d7559c040
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ldnddev_hero_video.field_ldnddev_hero_copy
+    - field.field.paragraph.ldnddev_hero_video.field_ldnddev_hero_link_title
+    - field.field.paragraph.ldnddev_hero_video.field_ldnddev_hero_link_url
+    - field.field.paragraph.ldnddev_hero_video.field_ldnddev_hero_title
+    - field.field.paragraph.ldnddev_hero_video.field_ldnddev_hero_video
+    - paragraphs.paragraphs_type.ldnddev_hero_video
+  module:
+    - link
+    - text
+_core:
+  default_config_hash: ZjfPEQE7Nz-qJjASnrECbFLhIbne_m0RhgGqhu_eC8A
+id: paragraph.ldnddev_hero_video.default
+targetEntityType: paragraph
+bundle: ldnddev_hero_video
+mode: default
+content:
+  field_ldnddev_hero_copy:
+    weight: 2
+    label: hidden
+    settings:
+      trim_length: 300
+    third_party_settings: {  }
+    type: text_trimmed
+    region: content
+  field_ldnddev_hero_link_title:
+    weight: 3
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_ldnddev_hero_link_url:
+    weight: 4
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: true
+      url_plain: true
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_ldnddev_hero_title:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_ldnddev_hero_video:
+    type: entity_reference_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+hidden: {  }

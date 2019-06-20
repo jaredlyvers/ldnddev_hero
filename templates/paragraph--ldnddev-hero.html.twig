@@ -1,0 +1,28 @@
+{{ attach_library('ldnddev_hero/ldnddev_hero') }}
+{% 
+    set classes=[
+        'ldnddev-hero'
+    ]
+%}
+
+{% if content.field_ldnddev_hero_css.0 %}
+    {% set classes = classes|merge([content.field_ldnddev_hero_css.0|render|clean_class]) %}
+{% endif %}
+{% if content.field_ldnddev_hero_parallax.0 %}
+    {% set parallax = content.field_ldnddev_hero_parallax.0|render|trim('-parallax-0') %}
+    {% set classes = classes|merge([content.field_ldnddev_hero_parallax.0|render|slice(0,9)]) %}
+{% endif %}
+{% if content.field_ldnddev_hero_overlay.0 %}
+    {% set classes = classes|merge([content.field_ldnddev_hero_overlay.0|render]) %}
+{% endif %}
+{% if content.field_ldnddev_hero_edge_to_edge|render|trim == 'On' %}
+    {% set classes = classes|merge(['-full']) %}
+    {% else %}
+        {% set classes = classes|merge(['-contained']) %}
+{% endif %}
+
+<div {{ attributes.addClass(classes) }} data-speed="{{ parallax }}">
+    <div class="ldnddev-hero__items">
+        {{ content.field_ldnddev_hero_item }}
+    </div>
+</div>

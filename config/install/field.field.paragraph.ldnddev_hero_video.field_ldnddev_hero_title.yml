@@ -1,0 +1,21 @@
+uuid: 8ed42876-01a9-4d92-aa37-bbf101e1eb99
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ldnddev_hero_title
+    - paragraphs.paragraphs_type.ldnddev_hero_video
+_core:
+  default_config_hash: Scq8n2-ESp1ANV1jJv_uzWI-cKtQAhf6UJFzrwCroH8
+id: paragraph.ldnddev_hero_video.field_ldnddev_hero_title
+field_name: field_ldnddev_hero_title
+entity_type: paragraph
+bundle: ldnddev_hero_video
+label: 'ldnddev Hero Title'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

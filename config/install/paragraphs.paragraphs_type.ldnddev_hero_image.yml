@@ -1,0 +1,11 @@
+uuid: 016fb87c-b367-45d0-9dad-b107fe684f17
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: rBDMszB4XtIEy5O_Fu44Emw4sgZ9Vpje_f1A3pmQNdc
+id: ldnddev_hero_image
+label: 'ldnddev Hero Image'
+icon_uuid: null
+description: 'This bundle is used to add an Image to the Hero bundle.'
+behavior_plugins: {  }

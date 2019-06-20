@@ -1,0 +1,23 @@
+uuid: 7718d3ae-a005-45d3-9572-0344a34ae158
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ldnddev_hero_parallax
+    - paragraphs.paragraphs_type.ldnddev_hero
+  module:
+    - options
+_core:
+  default_config_hash: jWlihh0PVtdhmWXsu4zuHcH9tVi_sFZSDxo2wLFl9fM
+id: paragraph.ldnddev_hero.field_ldnddev_hero_parallax
+field_name: field_ldnddev_hero_parallax
+entity_type: paragraph
+bundle: ldnddev_hero
+label: 'ldnddev Hero Parallax'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

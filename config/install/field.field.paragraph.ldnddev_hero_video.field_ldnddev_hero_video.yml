@@ -1,0 +1,30 @@
+uuid: 6191ad2f-e816-443e-9269-60715d22e8f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ldnddev_hero_video
+    - media.type.remote_video
+    - paragraphs.paragraphs_type.ldnddev_hero_video
+_core:
+  default_config_hash: CynqhoM70_NfFfxWSWMULyHZSuHTKcyebSgBjSMZJ6w
+id: paragraph.ldnddev_hero_video.field_ldnddev_hero_video
+field_name: field_ldnddev_hero_video
+entity_type: paragraph
+bundle: ldnddev_hero_video
+label: 'ldnddev Hero Video'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      remote_video: remote_video
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

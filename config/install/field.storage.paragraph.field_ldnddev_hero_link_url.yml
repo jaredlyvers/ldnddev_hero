@@ -1,0 +1,21 @@
+uuid: 13406658-f793-449c-a646-ae151e87702f
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - paragraphs
+_core:
+  default_config_hash: xeLYY8vG-sQvDUaGEya9vZkADifgHLxpvKjDbAFxYWs
+id: paragraph.field_ldnddev_hero_link_url
+field_name: field_ldnddev_hero_link_url
+entity_type: paragraph
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

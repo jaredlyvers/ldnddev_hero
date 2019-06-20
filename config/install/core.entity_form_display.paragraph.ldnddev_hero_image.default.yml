@@ -1,0 +1,66 @@
+uuid: ac2c3f8e-bc9d-47b9-8939-bb107070ac5f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ldnddev_hero_image.field_ldnddev_hero_copy
+    - field.field.paragraph.ldnddev_hero_image.field_ldnddev_hero_image
+    - field.field.paragraph.ldnddev_hero_image.field_ldnddev_hero_link_title
+    - field.field.paragraph.ldnddev_hero_image.field_ldnddev_hero_link_url
+    - field.field.paragraph.ldnddev_hero_image.field_ldnddev_hero_title
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.ldnddev_hero_image
+  module:
+    - image
+    - link
+    - text
+_core:
+  default_config_hash: _zbfpjfv0e8QlrNs2EvCifF1kWgR7DvukiaVvedWrLk
+id: paragraph.ldnddev_hero_image.default
+targetEntityType: paragraph
+bundle: ldnddev_hero_image
+mode: default
+content:
+  field_ldnddev_hero_copy:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_ldnddev_hero_image:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_ldnddev_hero_link_title:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_ldnddev_hero_link_url:
+    weight: 4
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_ldnddev_hero_title:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true

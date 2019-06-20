@@ -1,0 +1,23 @@
+uuid: 5b942fb9-e251-428c-a04d-a6c85e914f89
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ldnddev_hero_copy
+    - paragraphs.paragraphs_type.ldnddev_hero_image
+  module:
+    - text
+_core:
+  default_config_hash: MzTOVKRV0jgT-uIw5hECD0M_WviYrMbZSG2Ejg52WaQ
+id: paragraph.ldnddev_hero_image.field_ldnddev_hero_copy
+field_name: field_ldnddev_hero_copy
+entity_type: paragraph
+bundle: ldnddev_hero_image
+label: 'ldnddev Hero Copy'
+description: 'This copy block will be limited to 300 characters or less on output.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

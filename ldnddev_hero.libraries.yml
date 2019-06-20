@@ -1,0 +1,11 @@
+ldnddev_hero:
+  css:
+    component:
+      assets/css/ldnddev_hero.css:
+        minified: false
+  js:
+    assets/js/ldnddev_hero.js:
+      minified: false
+  dependencies:
+    - core/jquery
+    - core/drupal

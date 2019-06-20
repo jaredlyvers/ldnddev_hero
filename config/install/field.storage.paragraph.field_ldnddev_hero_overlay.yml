@@ -1,0 +1,39 @@
+uuid: a7cb1060-6473-41ab-b9c7-d48f7fe778b5
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_ldnddev_hero_overlay
+field_name: field_ldnddev_hero_overlay
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '-overlay-01'
+      label: Lightest
+    -
+      value: '-overlay-02'
+      label: Lighter
+    -
+      value: '-overlay-03'
+      label: Light
+    -
+      value: '-overlay-04'
+      label: Dark
+    -
+      value: '-overlay-05'
+      label: Darker
+    -
+      value: '-overlay-06'
+      label: Darkest
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,11 @@
+uuid: 963aaea8-57aa-4582-b82f-729a303c4f1c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: kCPbLd45c_iKGc3AtVjiMX8fjkqClyFKhMCQrgE22os
+id: ldnddev_hero_video
+label: 'ldnddev Hero Video'
+icon_uuid: null
+description: 'This bundle is used to add a video to the Hero bundle.'
+behavior_plugins: {  }

@@ -1,0 +1,41 @@
+uuid: ea5ddaee-de1c-4e58-bc5f-9ec1d3e25aca
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ldnddev_hero_item
+    - paragraphs.paragraphs_type.ldnddev_hero
+    - paragraphs.paragraphs_type.ldnddev_hero_image
+    - paragraphs.paragraphs_type.ldnddev_hero_video
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: g12DiFYAQXw0JhPISWDDrmfdb2Gxj2A2KG6r4y74mAU
+id: paragraph.ldnddev_hero.field_ldnddev_hero_item
+field_name: field_ldnddev_hero_item
+entity_type: paragraph
+bundle: ldnddev_hero
+label: 'ldnddev Hero Item'
+description: 'Select the type of item you would like for your <em>Hero</em>. ie. an image or a video.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      ldnddev_hero_image: ldnddev_hero_image
+      ldnddev_hero_video: ldnddev_hero_video
+    target_bundles_drag_drop:
+      ldnddev_hero:
+        weight: 4
+        enabled: false
+      ldnddev_hero_image:
+        enabled: true
+        weight: 5
+      ldnddev_hero_video:
+        enabled: true
+        weight: 6
+field_type: entity_reference_revisions

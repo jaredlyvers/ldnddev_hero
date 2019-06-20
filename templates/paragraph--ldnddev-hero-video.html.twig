@@ -1,0 +1,22 @@
+<div class="ldnddev-hero_item">
+    <div class="ldnddev-hero_video">
+        {{ content.field_ldnddev_hero_video }}
+    </div>
+    <div class="ldnddev-hero__content">
+        {% if content.field_ldnddev_hero.title.0 %}
+            <div class="ldnddev-hero__title">
+                <h2>{{ content.field_ldnddev_hero.title }}</h2>
+            </div>
+        {% endif %}
+        {% if content.field_ldnddev_hero.copy.0 %}
+            <div class="ldnddev-hero__copy">
+                {{ content.field_ldnddev_hero.copy }}
+            </div>
+        {% endif %}
+        {% if field_ldnddev_hero_link_title.0 and field_ldnddev_hero_link_url.0 %}
+            <div class="ldnddev-hero__link">
+                <a href="{{ field_ldnddev_hero_link_url }}" title="{{ field_ldnddev_hero_link_title }}" class="button">{{ field_ldnddev_hero_link_title }}</a>
+            </div>
+        {% endif %}
+    </div>
+</div>

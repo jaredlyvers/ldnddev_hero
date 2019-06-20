@@ -1,0 +1,11 @@
+uuid: 58913e76-8e55-4cd3-b854-34a52387cefe
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: kOOo_w2_bnC-d-zkxN4Zk2axj-CFTuoDxUiCNy9D51o
+id: ldnddev_hero
+label: 'ldnddev Hero'
+icon_uuid: null
+description: 'ldnddev hero component.'
+behavior_plugins: {  }

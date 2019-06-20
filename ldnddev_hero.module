@@ -1,0 +1,41 @@
+<?php
+
+/**
+ * @file
+ * ldnddev Hero Module file.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function ldnddev_hero_theme($existing, $type, $theme, $path) {
+  return [
+    'paragraph__ldnddev_hero' => [
+      'base hook' => 'paragraph',
+    ],
+    'paragraph__ldnddev_hero_image' => [
+      'base hook' => 'paragraph',
+    ],
+    'paragraph__ldnddev_hero_video' => [
+      'base hook' => 'paragraph',
+    ],
+    'field__paragraph__ldnddev_hero' => [
+      'base hook' => 'paragraph',
+    ],
+    'field__paragraph__ldnddev_hero_item' => [
+      'base hook' => 'paragraph',
+    ],
+    'field__paragraph__ldnddev_hero_image' => [
+      'base hook' => 'paragraph',
+    ],
+    'field__paragraph__ldnddev_hero_video' => [
+      'base hook' => 'paragraph',
+    ],
+    'media__remote_video' => [
+      'base hook' => 'paragraph',
+    ],
+    'field__media__remote_video' => [
+      'base hook' => 'paragraph',
+    ],
+  ];
+}

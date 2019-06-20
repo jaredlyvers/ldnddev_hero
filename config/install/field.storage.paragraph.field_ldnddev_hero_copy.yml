@@ -1,0 +1,21 @@
+uuid: f2c86ee5-1faa-45ac-9613-02f6055202ad
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+_core:
+  default_config_hash: Ox6nu1iWGjR4S8L-F45ZzcqCZDgvIfbYAB6RtoeQ7J4
+id: paragraph.field_ldnddev_hero_copy
+field_name: field_ldnddev_hero_copy
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

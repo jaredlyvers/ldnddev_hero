@@ -1,0 +1,21 @@
+uuid: 60b30db2-34bd-42d6-aa56-b84060f65d26
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ldnddev_hero_link_title
+    - paragraphs.paragraphs_type.ldnddev_hero_video
+_core:
+  default_config_hash: v9Lowp0vKrU0i6Am5Eec4pdz9jX3ARn0o1bHpHo1naY
+id: paragraph.ldnddev_hero_video.field_ldnddev_hero_link_title
+field_name: field_ldnddev_hero_link_title
+entity_type: paragraph
+bundle: ldnddev_hero_video
+label: 'ldnddev Hero Link Title'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

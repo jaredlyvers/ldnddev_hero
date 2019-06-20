@@ -1,0 +1,26 @@
+{% if content.field_ldnddev_hero_image.0 %}
+    {% set img_url = file_url(content.field_ldnddev_hero_image['#items'].entity.uri.value) %}
+{% endif %}
+<div class="ldnddev-hero__item">
+    <div class="ldnddev-hero__image" style="background-image: url({{ img_url }});">
+        <div class="ldnddev-hero__overlay"></div>
+        {{ content.field_ldnddev_hero_image }}
+    </div>
+    <div class="ldnddev-hero__content">
+        {% if content.field_ldnddev_hero_title.0 %}
+            <div class="ldnddev-hero__title">
+                <h2>{{ content.field_ldnddev_hero_title }}</h2>
+            </div>
+        {% endif %}
+        {% if content.field_ldnddev_hero_copy.0 %}
+            <div class="ldnddev-hero__copy">
+                {{ content.field_ldnddev_hero_copy }}
+            </div>
+        {% endif %}
+        {% if content.field_ldnddev_hero_link_title.0 and content.field_ldnddev_hero_link_url.0 %}
+            <div class="ldnddev-hero__link">
+                <a href="{{ content.field_ldnddev_hero_link_url.0|render|trim }}" title="{{ content.field_ldnddev_hero_link_title.0|render|trim }}">{{ content.field_ldnddev_hero_link_title.0|render|trim }}</a>
+            </div>
+        {% endif %}
+    </div>
+</div>

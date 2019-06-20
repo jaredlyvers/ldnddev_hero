@@ -1,0 +1,7 @@
+name: ldnddev Hero Paragraph Bundle
+type: module
+description: A reusable Hero Paragraph bundle.
+core: 8.x
+package: Paragraphs
+dependencies:
+  - paragraphs
