@@ -5,7 +5,7 @@ jQuery(document).ready(function($){
             speed = '0.'+speed;
             var elem = $(this).find('.ldnddev-hero__content');
             var offset = $(this).offset();
-            offset = (offset.top - 50);
+            offset = (offset.top - 100);
             $(window).on('scroll', function(){
                 var scroll = $(document).scrollTop();
                 if( $(this).scrollTop() >= offset ){
