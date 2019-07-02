@@ -12,7 +12,7 @@ id: paragraph.ldnddev_hero_video.field_ldnddev_hero_video
 field_name: field_ldnddev_hero_video
 entity_type: paragraph
 bundle: ldnddev_hero_video
-label: 'ldnddev Hero Video'
+label: 'Hero Video'
 description: ''
 required: false
 translatable: false

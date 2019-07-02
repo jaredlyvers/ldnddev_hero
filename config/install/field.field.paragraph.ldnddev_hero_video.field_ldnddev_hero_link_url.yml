@@ -13,7 +13,7 @@ id: paragraph.ldnddev_hero_video.field_ldnddev_hero_link_url
 field_name: field_ldnddev_hero_link_url
 entity_type: paragraph
 bundle: ldnddev_hero_video
-label: 'ldnddev Hero Link URL'
+label: 'Link URL'
 description: ''
 required: false
 translatable: true

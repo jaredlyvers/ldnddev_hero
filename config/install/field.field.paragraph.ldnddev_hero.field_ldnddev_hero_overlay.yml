@@ -11,7 +11,7 @@ id: paragraph.ldnddev_hero.field_ldnddev_hero_overlay
 field_name: field_ldnddev_hero_overlay
 entity_type: paragraph
 bundle: ldnddev_hero
-label: 'ldnddev Hero Overlay'
+label: 'Hero Overlay'
 description: 'Use this option to select an overlay and it''s shade.'
 required: false
 translatable: false

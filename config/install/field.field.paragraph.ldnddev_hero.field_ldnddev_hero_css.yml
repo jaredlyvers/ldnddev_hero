@@ -11,8 +11,8 @@ id: paragraph.ldnddev_hero.field_ldnddev_hero_css
 field_name: field_ldnddev_hero_css
 entity_type: paragraph
 bundle: ldnddev_hero
-label: 'ldnddev Hero CSS'
-description: ''
+label: 'Custom CSS Class'
+description: 'Add your own custom CSS class.'
 required: false
 translatable: false
 default_value: {  }

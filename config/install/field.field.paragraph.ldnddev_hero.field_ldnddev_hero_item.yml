@@ -15,7 +15,7 @@ id: paragraph.ldnddev_hero.field_ldnddev_hero_item
 field_name: field_ldnddev_hero_item
 entity_type: paragraph
 bundle: ldnddev_hero
-label: 'ldnddev Hero Item'
+label: 'Hero Item'
 description: 'Select the type of item you would like for your <em>Hero</em>. ie. an image or a video.'
 required: false
 translatable: false
@@ -38,4 +38,55 @@ settings:
       ldnddev_hero_video:
         enabled: true
         weight: 6
+      ldnddev_accordion:
+        weight: 21
+        enabled: false
+      ldnddev_accordion_item:
+        weight: 22
+        enabled: false
+      ldnddev_add_a_file:
+        weight: 23
+        enabled: false
+      ldnddev_add_a_link:
+        weight: 24
+        enabled: false
+      ldnddev_card:
+        weight: 25
+        enabled: false
+      ldnddev_card_item:
+        weight: 26
+        enabled: false
+      ldnddev_file_or_link:
+        weight: 27
+        enabled: false
+      ldnddev_gallery:
+        weight: 28
+        enabled: false
+      ldnddev_gallery_image:
+        weight: 29
+        enabled: false
+      ldnddev_gallery_video:
+        weight: 30
+        enabled: false
+      ldnddev_milestone:
+        weight: 34
+        enabled: false
+      ldnddev_milestone_item:
+        weight: 35
+        enabled: false
+      ldnddev_rich_text:
+        weight: 36
+        enabled: false
+      ldnddev_section:
+        weight: 37
+        enabled: false
+      ldnddev_slider:
+        weight: 38
+        enabled: false
+      ldnddev_slider_image:
+        weight: 39
+        enabled: false
+      ldnddev_slider_video:
+        weight: 40
+        enabled: false
 field_type: entity_reference_revisions

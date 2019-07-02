@@ -11,7 +11,7 @@ id: paragraph.ldnddev_hero_video.field_ldnddev_hero_title
 field_name: field_ldnddev_hero_title
 entity_type: paragraph
 bundle: ldnddev_hero_video
-label: 'ldnddev Hero Title'
+label: 'Hero Title'
 description: ''
 required: false
 translatable: true

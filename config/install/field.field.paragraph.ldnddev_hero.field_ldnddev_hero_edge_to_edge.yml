@@ -9,7 +9,7 @@ id: paragraph.ldnddev_hero.field_ldnddev_hero_edge_to_edge
 field_name: field_ldnddev_hero_edge_to_edge
 entity_type: paragraph
 bundle: ldnddev_hero
-label: 'ldnddev Hero Edge to Edge'
+label: 'Hero Edge to Edge'
 description: 'Select this option to make the section go <em>edge to edge</em> of the browser window. Unselect this option to keep this section contained within the maximum width of the content area. '
 required: false
 translatable: false

@@ -13,7 +13,7 @@ id: paragraph.ldnddev_hero_video.field_ldnddev_hero_copy
 field_name: field_ldnddev_hero_copy
 entity_type: paragraph
 bundle: ldnddev_hero_video
-label: 'ldnddev Hero Copy'
+label: 'Hero Copy'
 description: 'This copy block will be limited to 300 characters or less on output.'
 required: false
 translatable: true
